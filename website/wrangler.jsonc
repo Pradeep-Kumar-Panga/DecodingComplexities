@@ -16,5 +16,9 @@
   ],
   "images": {
     "binding": "IMAGES"
-  }
+  },
+  "routes": [
+    { "pattern": "www.pradeeppanga.com", "custom_domain": true },
+    { "pattern": "pradeeppanga.com", "custom_domain": true }
+  ]
 }
