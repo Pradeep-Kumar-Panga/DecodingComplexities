@@ -8,7 +8,8 @@ type Props = { params: Promise<{ topic: string }> };
 export const dynamicParams = false;
 
 export function generateStaticParams() {
-  return getTopics().map((t) => ({ topic: t.slug }));
+  // Old Blogger label links arrive as the label text ("IBM i"), so prerender that form too.
+  return getTopics().flatMap((t) => [...new Set([t.slug, t.label])].map((topic) => ({ topic })));
 }
 
 const resolve = (raw: string) => {
