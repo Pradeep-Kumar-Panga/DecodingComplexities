@@ -143,6 +143,7 @@ const GITHUB_FIXES = {
   "MaximumLikelihoodEstimation.ipynb": "Content/MaximumLikelihoodEstimation/notebook/MaximumLikelihoodEstimation.ipynb",
   "OneHotEncoding.ipynb": "Content/OneHotEncoding/notebook/OneHotEncoding.ipynb",
   "TopPSampling.py": "Content/TopPSampling/script/TopPSampling.py",
+  "The_Machines_Compass_Calculus.ipynb": "Content/Calculus/notebook/The_Machines_Compass_Calculus.ipynb",
   "generation_demo.py": "Projects/RAG/generation_demo.py",
   "naive_chunker.py": "Projects/RAG/naive_chunker.py",
   "Notebooks/GradientVector.ipynb": "Content/GradientVector/notebook/GradientVector.ipynb",
