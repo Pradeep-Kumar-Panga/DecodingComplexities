@@ -1,0 +1,438 @@
+{
+ "/2022/07/retrieve-list-of-spooled-files-on.html": {
+  "clicks": 298,
+  "impressions": 13380
+ },
+ "/2021/01/display-journal-from-sql-ibm-i.html": {
+  "clicks": 284,
+  "impressions": 12278
+ },
+ "/2021/05/extract-portion-of-datetimetimestamp-in.html": {
+  "clicks": 243,
+  "impressions": 9664
+ },
+ "/2020/09/all-about-read-in-rpgle-why-we-use-it.html": {
+  "clicks": 234,
+  "impressions": 20658
+ },
+ "/2021/02/character-to-numeric-conversion-in-rpg.html": {
+  "clicks": 189,
+  "impressions": 8340
+ },
+ "/2020/12/createwrite-data-to-ifs-file-from-sql.html": {
+  "clicks": 176,
+  "impressions": 5984
+ },
+ "/2023/12/what-is-importance-of-user-open-usropn.html": {
+  "clicks": 172,
+  "impressions": 3977
+ },
+ "/2020/02/readc-sflnxtchg.html": {
+  "clicks": 135,
+  "impressions": 9676
+ },
+ "/2020/12/retrieve-objects-present-in-ifs.html": {
+  "clicks": 113,
+  "impressions": 5033
+ },
+ "/2020/10/what-happens-if-journal-sequence-number.html": {
+  "clicks": 110,
+  "impressions": 3432
+ },
+ "/2022/06/working-with-save-files-ibm-i.html": {
+  "clicks": 108,
+  "impressions": 12462
+ },
+ "/2023/01/working-with-multi-member-physical.html": {
+  "clicks": 104,
+  "impressions": 8962
+ },
+ "/2022/04/record-lock-info-from-sql-ibm-i.html": {
+  "clicks": 74,
+  "impressions": 7142
+ },
+ "/2023/02/omit-vs-nopass-understanding-key.html": {
+  "clicks": 69,
+  "impressions": 2935
+ },
+ "/2021/03/check-journaled-objects-from-sql-ibm-i.html": {
+  "clicks": 68,
+  "impressions": 4705
+ },
+ "/2020/12/retrieve-data-queue-info-from-sql-ibm-i.html": {
+  "clicks": 68,
+  "impressions": 3923
+ },
+ "/2020/12/clear-data-queue-from-sql-ibm-i.html": {
+  "clicks": 64,
+  "impressions": 2801
+ },
+ "/2020/12/working-with-data-queues-in-sql-ibm-i.html": {
+  "clicks": 58,
+  "impressions": 3028
+ },
+ "/2020/05/usage-of-ovrdbf-opnqryf-explained.html": {
+  "clicks": 52,
+  "impressions": 7096
+ },
+ "/2016/03/working-with-xml-in-rpgle-xml-sax.html": {
+  "clicks": 51,
+  "impressions": 1262
+ },
+ "/2025/10/linearly-independent-vectors.html": {
+  "clicks": 48,
+  "impressions": 16937
+ },
+ "/2020/09/chain-vs-setllreade-what-to-use-when.html": {
+  "clicks": 35,
+  "impressions": 3591
+ },
+ "/2020/08/message-subfile.html": {
+  "clicks": 34,
+  "impressions": 2040
+ },
+ "/2021/02/generate-sql-for-database-objects-ibm-i.html": {
+  "clicks": 30,
+  "impressions": 1543
+ },
+ "/2021/02/delete-old-spooled-files-from-sql-ibm-i.html": {
+  "clicks": 35,
+  "impressions": 4101
+ },
+ "/2015/11/service-program-binder-source-binding.html": {
+  "clicks": 28,
+  "impressions": 2950
+ },
+ "/2020/08/expandable-subfile-example-program.html": {
+  "clicks": 28,
+  "impressions": 2130
+ },
+ "/2025/11/gram-schmidt-process.html": {
+  "clicks": 23,
+  "impressions": 10707
+ },
+ "/2020/08/how-to-run-cl-commands-in-rpgle-using.html": {
+  "clicks": 23,
+  "impressions": 1167
+ },
+ "/2015/11/load-all-subfile.html": {
+  "clicks": 21,
+  "impressions": 2423
+ },
+ "/2025/10/orthogonality-orthonormal-basis.html": {
+  "clicks": 16,
+  "impressions": 16926
+ },
+ "/2015/11/logical-file-vs-opnqryf.html": {
+  "clicks": 16,
+  "impressions": 1780
+ },
+ "/2020/12/send-data-to-data-queue-from-sql-ibm-i.html": {
+  "clicks": 15,
+  "impressions": 682
+ },
+ "/2025/11/least-squares-approximation.html": {
+  "clicks": 14,
+  "impressions": 4998
+ },
+ "/2021/06/case-conversion-lower-upper-in-rpgle.html": {
+  "clicks": 14,
+  "impressions": 1702
+ },
+ "/2019/12/rpgppopt-keyword-on-crtsqlrpgi.html": {
+  "clicks": 12,
+  "impressions": 762
+ },
+ "/2016/03/working-with-xml-in-rpgle-contd.html": {
+  "clicks": 12,
+  "impressions": 375
+ },
+ "/2025/02/rational-agent.html": {
+  "clicks": 11,
+  "impressions": 19820
+ },
+ "/2026/02/naive-bayes-classifier.html": {
+  "clicks": 11,
+  "impressions": 5148
+ },
+ "/2026/01/central-limit-theorem.html": {
+  "clicks": 11,
+  "impressions": 628
+ },
+ "/2020/09/read-vs-sql-select-quick-performance_23.html": {
+  "clicks": 11,
+  "impressions": 439
+ },
+ "/2026/04/on-prem-mcp-server.html": {
+  "clicks": 10,
+  "impressions": 3758
+ },
+ "/2025/08/vector-addition.html": {
+  "clicks": 10,
+  "impressions": 1912
+ },
+ "/2020/11/authorization-list-on-ibm-i.html": {
+  "clicks": 9,
+  "impressions": 1411
+ },
+ "/2021/05/retrieve-job-log-information-from-sql.html": {
+  "clicks": 11,
+  "impressions": 683
+ },
+ "/2022/10/view-binding-directory-entries-from-sql.html": {
+  "clicks": 9,
+  "impressions": 553
+ },
+ "/2025/11/orthogonal-projections.html": {
+  "clicks": 8,
+  "impressions": 6288
+ },
+ "/2026/05/svdlora.html": {
+  "clicks": 14,
+  "impressions": 1407
+ },
+ "/2015/11/track-submitted-job-details.html": {
+  "clicks": 6,
+  "impressions": 564
+ },
+ "/2020/05/rgzpfm-usage-important-parameters.html": {
+  "clicks": 5,
+  "impressions": 1726
+ },
+ "/2026/03/cross-entropy.html": {
+  "clicks": 5,
+  "impressions": 1182
+ },
+ "/2015/12/working-with-ibm-i-exit-programs.html": {
+  "clicks": 3,
+  "impressions": 342
+ },
+ "/2021/03/retrieve-system-values-from-sql-ibm-i.html": {
+  "clicks": 3,
+  "impressions": 286
+ },
+ "/2026/02/bayesian-inference.html": {
+  "clicks": 5,
+  "impressions": 436
+ },
+ "/2020/02/session-or-device-error-occured.html": {
+  "clicks": 2,
+  "impressions": 554
+ },
+ "/2025/10/vector-embedding.html": {
+  "clicks": 2,
+  "impressions": 358
+ },
+ "/2026/01/singular-value-decomposition.html": {
+  "clicks": 3,
+  "impressions": 233
+ },
+ "/2020/05/load-all-subfile-full-free-format-rpgle.html": {
+  "clicks": 2,
+  "impressions": 63
+ },
+ "/2025/12/polynomial-regression-from-scratch.html": {
+  "clicks": 1,
+  "impressions": 729
+ },
+ "/2025/08/scalar-multiplication.html": {
+  "clicks": 1,
+  "impressions": 574
+ },
+ "/2025/12/overfitting-machine-learning.html": {
+  "clicks": 1,
+  "impressions": 312
+ },
+ "/2026/05/gradient-vector.html": {
+  "clicks": 2,
+  "impressions": 502
+ },
+ "/2026/10/llm-greedy-decoding-vs-sampling.html": {
+  "clicks": 1,
+  "impressions": 269
+ },
+ "/2026/08/one-hot-encoding.html": {
+  "clicks": 1,
+  "impressions": 241
+ },
+ "/2026/01/random-variable-probability.html": {
+  "clicks": 1,
+  "impressions": 271
+ },
+ "/2025/10/span-basis-dimension.html": {
+  "clicks": 1,
+  "impressions": 175
+ },
+ "/2026/04/importance-of-comments-in-mcp-server.html": {
+  "clicks": 1,
+  "impressions": 95
+ },
+ "/2021/01/rpg-new-built-in-function-range-and-new.html": {
+  "clicks": 1,
+  "impressions": 54
+ },
+ "/2021/04/return-number-of-parameters-parms-and.html": {
+  "clicks": 1,
+  "impressions": 36
+ },
+ "/2021/04/retrieve-list-of-open-files-for-job.html": {
+  "clicks": 1,
+  "impressions": 31
+ },
+ "/2026/02/maximum-likelihood-estimation.html": {
+  "clicks": 0,
+  "impressions": 487
+ },
+ "/2026/09/gradient-descent.html": {
+  "clicks": 0,
+  "impressions": 439
+ },
+ "/2023/07/md5-hash-function-what-is-it-and-how-to.html": {
+  "clicks": 0,
+  "impressions": 366
+ },
+ "/2025/11/linear-regression-from-scratch.html": {
+  "clicks": 0,
+  "impressions": 365
+ },
+ "/2021/04/string-method-zfill-in-python.html": {
+  "clicks": 0,
+  "impressions": 339
+ },
+ "/2025/07/how-to-calculate-vectors-magnitude.html": {
+  "clicks": 0,
+  "impressions": 315
+ },
+ "/2023/08/sha-256-hash-function-what-is-it-and.html": {
+  "clicks": 0,
+  "impressions": 226
+ },
+ "/2022/07/numeric-data-types-in-python.html": {
+  "clicks": 0,
+  "impressions": 126
+ },
+ "/2026/09/feature-scaling.html": {
+  "clicks": 0,
+  "impressions": 107
+ },
+ "/2023/07/sha-1-hash-function-what-is-it-and-how.html": {
+  "clicks": 0,
+  "impressions": 105
+ },
+ "/2020/09/read-vs-sql-select-quick-performance.html": {
+  "clicks": 0,
+  "impressions": 87
+ },
+ "/2025/05/what-is-central-tendency.html": {
+  "clicks": 0,
+  "impressions": 69
+ },
+ "/2026/04/calculus-machine-learning.html": {
+  "clicks": 0,
+  "impressions": 90
+ },
+ "/2026/07/the-determinant.html": {
+  "clicks": 0,
+  "impressions": 54
+ },
+ "/2015/11/date-formats-in-ibm-i.html": {
+  "clicks": 0,
+  "impressions": 53
+ },
+ "/2021/02/generate-sql-for-database-objects-part-2.html": {
+  "clicks": 0,
+  "impressions": 52
+ },
+ "/2026/09/cosine-similarity-rag.html": {
+  "clicks": 0,
+  "impressions": 43
+ },
+ "/2025/03/crtdupobj-cpyf.html": {
+  "clicks": 0,
+  "impressions": 39
+ },
+ "/2020/06/what-is-activation-group.html": {
+  "clicks": 0,
+  "impressions": 37
+ },
+ "/2021/02/while-loop-in-python.html": {
+  "clicks": 0,
+  "impressions": 36
+ },
+ "/2025/08/matrix-basics.html": {
+  "clicks": 0,
+  "impressions": 27
+ },
+ "/2025/10/systems-of-linear-equations.html": {
+  "clicks": 0,
+  "impressions": 45
+ },
+ "/2026/09/rag-wrong-chunk-retrieval.html": {
+  "clicks": 0,
+  "impressions": 25
+ },
+ "/2026/10/greedy-vs-beam-search.html": {
+  "clicks": 0,
+  "impressions": 22
+ },
+ "/2023/12/removing-element-from-set-remove-vs.html": {
+  "clicks": 0,
+  "impressions": 22
+ },
+ "/2025/01/what-is-artificial-intelligence.html": {
+  "clicks": 0,
+  "impressions": 27
+ },
+ "/2025/07/what-is-a-vector.html": {
+  "clicks": 0,
+  "impressions": 20
+ },
+ "/2026/09/data-leakage.html": {
+  "clicks": 0,
+  "impressions": 16
+ },
+ "/2025/10/vector-space.html": {
+  "clicks": 0,
+  "impressions": 16
+ },
+ "/2021/03/split-string-in-sql-ibm-i.html": {
+  "clicks": 0,
+  "impressions": 15
+ },
+ "/2025/03/how-ai-uses-cryptography-to-secure-future.html": {
+  "clicks": 0,
+  "impressions": 11
+ },
+ "/2026/11/class-imbalance-trap.html": {
+  "clicks": 0,
+  "impressions": 7
+ },
+ "/2026/11/llm-top-p-sampling_0777625389.html": {
+  "clicks": 0,
+  "impressions": 6
+ },
+ "/2023/06/what-is-cryptography-introduction-to.html": {
+  "clicks": 0,
+  "impressions": 8
+ },
+ "/2026/10/llm-top-k-sampling.html": {
+  "clicks": 0,
+  "impressions": 3
+ },
+ "/2026/01/eigenvalues-eigenvectors.html": {
+  "clicks": 0,
+  "impressions": 2
+ },
+ "/2026/10/llm-temperature.html": {
+  "clicks": 0,
+  "impressions": 2
+ },
+ "/2020/05/usage-of-ovrdbf-opnQRYF-explained.html": {
+  "clicks": 0,
+  "impressions": 1
+ },
+ "/2022/06/working-with-save-files-ibm-i-decoding-complexities.html": {
+  "clicks": 0,
+  "impressions": 1
+ }
+}

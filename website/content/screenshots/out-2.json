@@ -1,0 +1,190 @@
+{
+"ad28ad1c4fe1.png": {"action":"convert","blocks":[
+{"role":"code","lang":"sql","text":"SELECT ORDINAL_POSITION, MESSAGE_DATA FROM\n       TABLE(QSYS2.DATA_QUEUE_ENTRIES(\n             DATA_QUEUE => 'TESTDTAQ',\n             DATA_QUEUE_LIBRARY => 'REDDYP1',\n             SELECTION_TYPE => 'REVERSE'));"},
+{"role":"output","lang":"text","text":"ORDINAL_POSITION  MESSAGE_DATA\n1                 FOURTH ENTRY\n2                 THIRD ENTRY\n3                 SECOND ENTRY\n4                 FIRST ENTRY"}]},
+"a9d5ed46019a.png": {"action":"convert","blocks":[
+{"role":"code","lang":"sql","text":"CALL QSYS2/CLEAR_DATA_QUEUE('TESTDTAQ', 'REDDYP1') ;"}]},
+"fb737d11469a.png": {"action":"convert","blocks":[
+{"role":"code","lang":"python","text":"# creating a list with different data types\na_list = [1, \"TWO\", 3, \"FOUR\", 5]\n\n# creating an empty list\nb_list = []"}]},
+"05475c31b4e2.png": {"action":"keep","reason":"Styled index diagram image (blue box, curly quotes), not plain console text"},
+"ccf4b9a8270f.png": {"action":"convert","blocks":[
+{"role":"code","lang":"python","text":"# creating a list with different data types\na_list = [1, 2, 3, 4, 5, 2]\n\nprint(a_list.index(2))\nprint(a_list)"}]},
+"7d051e98948b.png": {"action":"convert","blocks":[
+{"role":"output","lang":"text","text":"1\n[1, 2, 3, 4, 5, 2]"}]},
+"3c0ebd792325.png": {"action":"convert","blocks":[
+{"role":"code","lang":"python","text":"# creating a list with different data types\na_list = [1, \"TWO\", 3, \"FOUR\", 5]\nprint(a_list)\n\n# appending data to a List\na_list.append(\"FOUR\")\nprint(a_list)"}]},
+"59fc4a037727.png": {"action":"convert","blocks":[
+{"role":"output","lang":"text","text":"[1, 'TWO', 3, 'FOUR', 5]\n[1, 'TWO', 3, 'FOUR', 5, 'FOUR']"}]},
+"c72fe2c7af00.png": {"action":"convert","blocks":[
+{"role":"code","lang":"python","text":"# creating a list with different data types\na_list = [1, 2, 3]\nb_list = [4, 5, 6, 7, 8, 9]\n\na_list.extend(b_list)\n\nprint(a_list)"}]},
+"2ed4b04db8e8.png": {"action":"convert","blocks":[
+{"role":"output","lang":"text","text":"[1, 2, 3, 4, 5, 6, 7, 8, 9]"}]},
+"c61a91925fb9.png": {"action":"convert","blocks":[
+{"role":"code","lang":"python","text":"a_list.remove(\"FOUR\")\nprint(a_list)"}]},
+"c509a18cb4ec.png": {"action":"convert","blocks":[
+{"role":"output","lang":"text","text":"[1, 'TWO', 3, 5, 'FOUR']"}]},
+"00235d8f89d2.png": {"action":"convert","blocks":[
+{"role":"code","lang":"python","text":"# creating a list with different data types\na_list = [1, \"TWO\", 3, \"FOUR\", 5]\nb_list = a_list\n\nb_list.append(6)\na_list.append(\"SEVEN\")\n\nprint(a_list)\nprint(b_list)"}]},
+"e3a11541d470.png": {"action":"convert","blocks":[
+{"role":"output","lang":"text","text":"[1, 'TWO', 3, 'FOUR', 5, 6, 'SEVEN']\n[1, 'TWO', 3, 'FOUR', 5, 6, 'SEVEN']"}]},
+"b8283ef2612c.png": {"action":"convert","blocks":[
+{"role":"code","lang":"python","text":"# creating a list with different data types\na_list = [1, \"TWO\", 3, \"FOUR\", 5]\nb_list = a_list.copy()\n\nb_list.append(6)\na_list.append(\"SEVEN\")\n\nprint(a_list)\nprint(b_list)"}]},
+"298334f607ea.png": {"action":"convert","blocks":[
+{"role":"output","lang":"text","text":"[1, 'TWO', 3, 'FOUR', 5, 'SEVEN']\n[1, 'TWO', 3, 'FOUR', 5, 6]"}]},
+"d821fafebf04.png": {"action":"convert","blocks":[
+{"role":"code","lang":"python","text":"# creating a list with different data types\na_list = [1, \"TWO\", 3, \"FOUR\", 5]\nb_tuple = (1, 2, 3)\n\nc_list = list(a_list)\nd_list = list(b_tuple)\ne_list = list((3, 4, 5))\nf_list = list([6, 7, 8])"}]},
+"075c69c4c681.png": {"action":"convert","blocks":[
+{"role":"code","lang":"python","text":"# creating a list with different data types\na_list = [1, \"TWO\", 3, \"FOUR\", 5]\na_list.clear()"}]},
+"16a68ffbd9a2.png": {"action":"convert","blocks":[
+{"role":"code","lang":"python","text":"# creating a list with different data types\na_list = [1, 2, 3, 4, 5, 2, 1, 2]\n\nprint(a_list.count(2))\nprint(a_list)"}]},
+"decc1a4e0ac9.png": {"action":"convert","blocks":[
+{"role":"output","lang":"text","text":"3\n[1, 2, 3, 4, 5, 2, 1, 2]"}]},
+"e95ae0b2486e.png": {"action":"convert","blocks":[
+{"role":"code","lang":"python","text":"# creating a list with different data types\na_list = [1, 2, 3, 4, 5, 2, 1, 2]\n\nprint(a_list.pop(1))\nprint(a_list.pop(1))\nprint(a_list)"}]},
+"3414f629f8ac.png": {"action":"convert","blocks":[
+{"role":"output","lang":"text","text":"2\n3\n[1, 4, 5, 2, 1, 2]"}]},
+"312614aa0d0e.png": {"action":"convert","blocks":[
+{"role":"code","lang":"python","text":"# Sorting a list (Ascending Order)\na_list = [1, 2, 3, 4, 5, 2, 1, 2]\na_list.sort()\nprint(a_list)\n\n# Sorting a list in reverse Order\na_list = [1, 2, 3, 4, 5, 2, 1, 2]\na_list.sort(reverse=True)\nprint(a_list)\n\n\n# Sorting a list (Descending Order)\na_list = [1, 2, 3, 4, 5, 2, 1, 2]\na_list.reverse()\nprint(a_list)"}]},
+"681063d22af3.png": {"action":"convert","blocks":[
+{"role":"output","lang":"text","text":"[1, 1, 2, 2, 2, 3, 4, 5]\n[5, 4, 3, 2, 2, 2, 1, 1]\n[2, 1, 2, 5, 4, 3, 2, 1]"}]},
+"77d8438a0285.png": {"action":"convert","blocks":[
+{"role":"code","lang":"python","text":"# creating a list with different data types\na_list = [1, 2, 3, 4, 5, 2, 1, 2]\nb_list = sorted(a_list)\nprint(b_list)\n\na_list = [1, 2, 3, 4, 5, 2, 1, 2]\nb_list = sorted(a_list, reverse=True)\nprint(b_list)"}]},
+"5a13da23531d.png": {"action":"convert","blocks":[
+{"role":"output","lang":"text","text":"[1, 1, 2, 2, 2, 3, 4, 5]\n[5, 4, 3, 2, 2, 2, 1, 1]"}]},
+"c4a75eff81db.png": {"action":"convert","blocks":[
+{"role":"code","lang":"sql","text":"SELECT ENTRY_TIMESTAMP,\n       JOURNAL_ENTRY_TYPE,\n       COUNT_OR_RRN,\n       OBJECT,\n       OBJECT_TYPE,\n       ENTRY_DATA\n\n  FROM TABLE(DISPLAY_JOURNAL(\n             JOURNAL_NAME => 'TESTJRN',\n             JOURNAL_LIBRARY => 'REDDYP1'))"}]},
+"1408a314178c.png": {"action":"keep","reason":"Very wide result grid rendered too small to read reliably (hex entry data)"},
+"b31b5db79904.png": {"action":"convert","blocks":[
+{"role":"code","lang":"sql","text":"SELECT ENTRY_TIMESTAMP,\n       JOURNAL_ENTRY_TYPE,\n\n       CAST(CAST(ENTRY_DATA AS VARCHAR(50))\n            AS VARCHAR(50) CCSID 37) AS JOURNAL_DATA\n\n  FROM TABLE(DISPLAY_JOURNAL(\n             JOURNAL_NAME => 'TESTJRN',\n             JOURNAL_LIBRARY => 'REDDYP1',\n             OBJECT_NAME => 'TESTTABLE',\n             OBJECT_LIBRARY => 'REDDYP1',\n             OBJECT_OBJTYPE => '*FILE',\n             OBJECT_MEMBER => '*FIRST',\n             JOURNAL_ENTRY_TYPES => 'PT UB UP',\n             STARTING_RECEIVER_NAME => '*CURCHAIN',\n             STARTING_TIMESTAMP => '2021-01-11-13.53.25.000000',\n             ENDING_TIMESTAMP => '2021-01-11-13.55.00.000000'\n             ))"}]},
+"28a8246d1cbf.png": {"action":"convert","blocks":[
+{"role":"output","lang":"text","text":"ENTRY_TIMESTAMP             JOURNAL_ENTRY_TYPE  JOURNAL_DATA\n2021-01-11 13:53:25.100416  PT                  Second Record\n2021-01-11 13:53:27.741360  PT                  Third Record\n2021-01-11 13:53:41.400448  UB                  Third Record\n2021-01-11 13:53:41.400448  UP                  Third Record - Updated"}]},
+"17bae7dfb9ad.png": {"action":"convert","blocks":[
+{"role":"code","lang":"sql","text":"SELECT ENTRY_TIMESTAMP,\n       JOURNAL_ENTRY_TYPE,\n\n       INTERPRET(CAST(SUBSTRING(ENTRY_DATA,1,10) AS CHAR(10))\n            AS CHAR(10)) AS ORDER_NUMBER,\n\n       INTERPRET(CAST(SUBSTRING(ENTRY_DATA,11,30) AS CHAR(30))\n            AS CHAR(30)) AS CUSTOMER_NAME,\n\n       INTERPRET(CAST(SUBSTRING(ENTRY_DATA,41,3) AS CHAR(3))\n            AS DEC(5,2)) AS ORDER_VALUE\n\n  FROM TABLE(DISPLAY_JOURNAL(\n             JOURNAL_NAME => 'TESTJRN',\n             JOURNAL_LIBRARY => 'REDDYP1',\n             OBJECT_NAME => 'TESTORDERS',\n             OBJECT_LIBRARY => 'REDDYP1',\n             OBJECT_OBJTYPE => '*FILE',\n             OBJECT_MEMBER => '*FIRST',\n             JOURNAL_ENTRY_TYPES => 'PT UB UP',\n             STARTING_RECEIVER_NAME => '*CURCHAIN',\n             STARTING_TIMESTAMP => '2021-01-12-02.00.00.000000',\n             ENDING_TIMESTAMP => '2021-01-12-03.00.00.000000'))"}]},
+"d63ef10c58a5.png": {"action":"convert","blocks":[
+{"role":"output","lang":"text","text":"ENTRY_TIMESTAMP             JOURNAL_ENTRY_TYPE  ORDER_NUMBER  CUSTOMER_NAME  ORDER_VALUE\n2021-01-12 02:36:30.509008  UB                  ORD001        Pradeep Panga  90.00\n2021-01-12 02:36:30.509008  UP                  ORD001        Pradeep Panga  99.99\n2021-01-12 02:36:36.836944  UB                  ORD002        Pradeep Reddy  70.00\n2021-01-12 02:36:36.836944  UP                  ORD002        Pradeep Reddy  75.00"}]},
+"cf49b6e5d059.png": {"action":"convert","blocks":[
+{"role":"code","lang":"sql","text":"CAST(CAST(SUBSTRING(ENTRY_DATA,1,10) AS VARCHAR(10))\n     AS VARCHAR(10) CCSID 37) AS ORDER_NUMBER,\n\nCAST(CAST(SUBSTRING(ENTRY_DATA,11,30) AS VARCHAR(30))\n     AS VARCHAR(30) CCSID 37) AS CUSTOMER_NAME,\n\nCAST(CAST(SUBSTRING(ENTRY_DATA,41,3) AS VARCHAR(3))\n     AS VARCHAR(3)) AS ORDER_VALUE"}]},
+"202a06497caa.png": {"action":"convert","blocks":[
+{"role":"output","lang":"text","text":"ORDER_NUMBER  CUSTOMER_NAME  ORDER_VALUE\nORD001        Pradeep Panga  09000F\nORD001        Pradeep Panga  09999F\nORD002        Pradeep Reddy  07000F\nORD002        Pradeep Reddy  07500F"}]},
+"1b00d68b039e.png": {"action":"convert","blocks":[
+{"role":"code","lang":"python","text":"# Creating Tuple with numeric data\na_tuple = (1, 2, 3)\n\n# Creating Tuple with Strings\nb_tuple = (\"FOUR\", \"FIVE\", \"SIX\")\n\n# Creating Tuple with Boolean Data\nc_tuple = (True, False, True)\n\n# Creating Tuple with Different types\nd_tuple = (1, \"TWO\", False)"}]},
+"0e31f33cf91f.png": {"action":"convert","blocks":[
+{"role":"code","lang":"python","text":"# Creating Tuple with one element\na_tuple = (\"ONE\")\n\nb_tuple = (1,)\n\nprint(type(a_tuple))\nprint(type(b_tuple))"}]},
+"f7e68dff4d8d.png": {"action":"convert","blocks":[
+{"role":"output","lang":"text","text":"<class 'str'>\n<class 'tuple'>"}]},
+"d9383a3e645a.png": {"action":"keep","reason":"Styled index diagram image (blue box, curly quotes), not plain console text"},
+"30a42d13cbd9.png": {"action":"convert","blocks":[
+{"role":"code","lang":"python","text":"# Creating Tuple with duplicate data\na_tuple = (1, 2, 3, 2, 5)\n\nprint(a_tuple.index(2))\nprint(a_tuple)"}]},
+"b0766453f429.png": {"action":"convert","blocks":[
+{"role":"code","lang":"python","text":"# Creating Tuple with duplicate data\na_tuple = (1, 2, 3, 2, 5)\n\nprint(a_tuple.index(2, 2))\nprint(a_tuple)"}]},
+"3f38d568a17b.png": {"action":"convert","blocks":[
+{"role":"output","lang":"text","text":"3\n(1, 2, 3, 2, 5)"}]},
+"a0a736917507.png": {"action":"convert","blocks":[
+{"role":"code","lang":"python","text":"# Creating Tuple with duplicate data\na_tuple = (1, 2, 3, 2, 5, 2)\n\nprint(a_tuple.count(2))\nprint(a_tuple)"}]},
+"f5b24c5c76e2.png": {"action":"convert","blocks":[
+{"role":"output","lang":"text","text":"3\n(1, 2, 3, 2, 5, 2)"}]},
+"2d9cc139da50.png": {"action":"convert","blocks":[
+{"role":"code","lang":"sql","text":"SELECT * FROM\n         TABLE(DATA_AREA_INFO(\n               DATA_AREA_NAME => 'TESTDTAARA'))"}]},
+"b5841e0c9ee6.png": {"action":"convert","blocks":[
+{"role":"output","lang":"text","text":"DATA_AREA_LIBRARY  DATA_AREA_NAME  DATA_AREA_TYPE  LENGTH  DECIMAL_POSITIONS  DATA_AREA_VALUE\nREDDYP1            TESTDTAARA      *CHAR               50  -                  LAST ORDER NUMBER : 00012345"}],"uncertain":"The '-' in DECIMAL_POSITIONS is the grid's null marker"},
+"446f2e0ccb1e.png": {"action":"convert","blocks":[
+{"role":"code","lang":"sql","text":"SELECT * FROM\n         TABLE(DATA_AREA_INFO(\n               DATA_AREA_NAME => 'DECDTAARA',\n               DATA_AREA_LIBRARY => 'REDDYP1'))"}]},
+"5b06163b9654.png": {"action":"convert","blocks":[
+{"role":"output","lang":"text","text":"DATA_AREA_LIBRARY  DATA_AREA_NAME  DATA_AREA_TYPE  LENGTH  DECIMAL_POSITIONS  DATA_AREA_VALUE\nREDDYP1            DECDTAARA       *DEC                 9                  2  1234567.89"}]},
+"13a80de51295.png": {"action":"convert","blocks":[
+{"role":"code","lang":"sql","text":"SELECT * FROM DATA_AREA_INFO\n         WHERE DATA_AREA_LIBRARY = 'REDDYP1'"}]},
+"40b7728e6c21.png": {"action":"convert","blocks":[
+{"role":"output","lang":"text","text":"DATA_AREA_LIBRARY  DATA_AREA_NAME  DATA_AREA_TYPE  LENGTH  DECIMAL_POSITIONS  DATA_AREA_VALUE\nREDDYP1            DECDTAARA       *DEC                 9                  2  1234567.89\nREDDYP1            TESTDTAARA      *CHAR               50  -                  LAST ORDER NUMBER : 00012345"}],"uncertain":"The '-' in DECIMAL_POSITIONS is the grid's null marker"},
+"180d695434eb.png": {"action":"convert","blocks":[
+{"role":"code","lang":"rpgle","text":"**Free\n\nDcl-S wFavoriteColours Char(10) DIM(3) ;\nDcl-S wColour Char(10) ;\nDcl-S wNumber Packed(2 : 0) ;\n\n// Assign data to an Array using %LIST\nwFavoriteColours = %LIST('RED'\n                         :'GREEN'\n                         :'BLUE') ;\n\n// Loop through an array using FOR-EACH loop\nFOR-EACH wColour IN wFavoriteColours ;\n  Dsply wColour ;\nENDFOR ;\n\n// Loop through the values provided by %LIST using FOR-EACH\nFOR-EACH wColour IN %LIST('BLACK' : 'WHITE' : 'YELLOW') ;\n  Dsply wColour ;\nENDFOR ;\n\n// Loop throigh numeric values provided by %LIST using FOR-EACH\nFOR-EACH wNumber IN %LIST(10 : 12 : 15) ;\n  Dsply wNumber ;\nENDFOR ;\n\n// Loop through Subarray using %SUBARR and FOR-EACH\nFOR-EACH wColour IN %SUBARR(wFavoriteColours : 2 : 2) ;\n  Dsply wColour ;\nENDFOR ;\n\n*InLr = *On ;"}]},
+"9e31ce1950c1.png": {"action":"convert","blocks":[
+{"role":"code","lang":"rpgle","text":"**Free\nDcl-Ds EmployeeDetails Qualified ;\n  Name Char(30) ;\n  Age Packed(2 : 0) ;\nEnd-Ds ;\n\nDcl-Ds EmployeeDetailsArray LikeDs(EmployeeDetails) DIM(10) ;\n\nFOR-EACH EmployeeDetails IN EmployeeDetailsArray ;\n  Dsply EmployeeDetails.Name ;\n  Dsply EmployeeDetails.Age ;\nENDFOR ;\n\n*InLr = *On ;"}]},
+"27fcbd460860.png": {"action":"convert","blocks":[
+{"role":"code","lang":"rpgle","text":"**Free\n\n  Dcl-S wNumber Packed(2 : 0) Inz(10) ;\n  Dcl-S wString Char(2) Inz('AB') ;\n\n  If wNumber IN %Range(1 : 15) ;\n    Dsply wNumber ;\n  EndIf ;\n\n  If wString IN %Range('AA' : 'BB') ;\n    Dsply wString ;\n  EndIf ;\n\n  Dow wNumber IN %Range(1 : 15) ;\n    Dsply wNumber ;\n    wNumber += 1 ;\n  EndDo ;\n\n  *InLr = *On ;"}]},
+"93b6db53f64e.png": {"action":"convert","blocks":[
+{"role":"code","lang":"sql","text":"SELECT * FROM\n         TABLE(SCAN_IFS_FOR_STRING(\n               INPUT_IFS_DIRECTORY => '/home/REDDYP',\n               SCAN_STRING => 'SECOND RECORD'))"}]},
+"7f7d8d99f56f.png": {"action":"convert","blocks":[
+{"role":"output","lang":"text","text":"STMF_NAME                                      LINE_NUMBER  LINE\n/home/REDDYP/SecondTextFile.txt                          2  Second Record in Existing File\n/home/REDDYP/STMFfromPF                                  3  Second Record (Third Line)\n/home/REDDYP/SubDirectory/Sample_Textfile.txt            2  \"Second Record            \""}],"uncertain":"Number of trailing spaces inside the last LINE value is approximate"},
+"ea4fcf67077f.png": {"action":"convert","blocks":[
+{"role":"code","lang":"sql","text":"-- Create (or Replace) Table Function 'Scan_IFS_for_String'\n-- Using Functions IFS_OBJECT_STATISTICS & IFS_READ\n-- Accepts two Input parameters (IFS Directory & String to be Scanned)\n-- Returns Stream File, Line Number the string found and the corresponding line.\nCREATE OR REPLACE FUNCTION Scan_IFS_for_String\n                    (INPUT_IFS_DIRECTORY VARCHAR(100),\n                     SCAN_STRING CHAR(50))\n\n       RETURNS TABLE(STMF_NAME VARCHAR(100),\n                     LINE_NUMBER DECIMAL(5, 0),\n                     LINE VARCHAR(100))\n\nLANGUAGE SQL\nMODIFIES SQL DATA\n\nBEGIN\n\n    -- Temporary table to return data\n    CREATE OR REPLACE TABLE QTEMP/RETURN_TABLE (STMF_NAME VARCHAR(100),\n                                     LINE_NUMBER DECIMAL(5, 0),\n                                     LINE VARCHAR(100)) ;\n    DELETE FROM QTEMP/RETURN_TABLE ;\n\n    -- Retrieve all the Streams file in the Input Directory\n    -- in a FOR loop to scan each stream file\n    -- Using Table Function 'IFS_OBJECT_STATISTICS'\n    FOR SELECT PATH_NAME AS IFS_PATH_NAME\n        FROM TABLE(IFS_OBJECT_STATISTICS(\n                   START_PATH_NAME => INPUT_IFS_DIRECTORY,\n                   OBJECT_TYPE_LIST => '*ALLSTMF')) DO\n\n        -- Scan each Stream file using Table Function 'IFS_READ'\n        -- And insert the results into Temporary Table\n        INSERT INTO QTEMP/RETURN_TABLE\n        SELECT IFS_PATH_NAME, LINE_NUMBER, LINE\n        FROM TABLE(IFS_READ(\n                   PATH_NAME => IFS_PATH_NAME))\n        WHERE UPPER(LINE) like '%' || UPPER(TRIM(SCAN_STRING)) || '%';\n\n    END FOR ;\n\n    -- Return Temporary Table\n    RETURN SELECT STMF_NAME, LINE_NUMBER, LINE FROM QTEMP/RETURN_TABLE ;\n\nEND ;"}],"uncertain":"Indentation of continuation lines estimated from pixel positions"},
+"beedbcbd320c.png": {"action":"convert","blocks":[
+{"role":"code","lang":"python","text":"a_months = {1: \"ONE\", 2: \"TWO\", 3:\"THREE\"}\n\ntry:\n    print(a_months[4]) # Returns Key Error\nexcept KeyError:\n    a_months[4] = \"FOUR\"\n    print(a_months[4])"}]},
+"9ad4608048e6.png": {"action":"convert","blocks":[
+{"role":"code","lang":"python","text":"a_months = {1: \"ONE\", 2: \"TWO\", 3:\"THREE\"}\n\nprint(a_months.setdefault(4, \"FOUR\")) # Inserts entry and prints \"FOUR\"\n\nprint(a_months.setdefault(5)) # Inserts entry with None and prints \"NONE\"\n\nprint(a_months.setdefault(1, \"UPDATED\")) # Doesn't update the dictionary and prints \"ONE\""}]},
+"3fc1215728f3.png": {"action":"convert","blocks":[
+{"role":"code","lang":"python","text":"# Creating Dictionary\na_dict = {1: \"ONE\", 2: \"TWO\", 3: \"THREE\"}\nprint(a_dict)\n\n# Print the keys of a dictionary\nprint(a_dict.keys())\n\nfor key in a_dict.keys():\n    print(key)"}]},
+"e8dd3f726dab.png": {"action":"convert","blocks":[
+{"role":"output","lang":"text","text":"{1: 'ONE', 2: 'TWO', 3: 'THREE'}\ndict_keys([1, 2, 3])\n1\n2\n3"}]},
+"646f58dad83e.png": {"action":"convert","blocks":[
+{"role":"code","lang":"python","text":"# Creating Dictionary\na_dict = {1: \"ONE\", 2: \"TWO\", 3: \"THREE\"}\nprint(a_dict)\n\n# Print the values from a dictionary\nprint(a_dict.values())\n\nfor value in a_dict.values():\n    print(value)"}]},
+"59bf836eac97.png": {"action":"convert","blocks":[
+{"role":"output","lang":"text","text":"{1: 'ONE', 2: 'TWO', 3: 'THREE'}\ndict_values(['ONE', 'TWO', 'THREE'])\nONE\nTWO\nTHREE"}]},
+"8216b57d15c9.png": {"action":"convert","blocks":[
+{"role":"code","lang":"python","text":"# Creating Dictionary\na_dict = {1: \"ONE\", 2: \"TWO\", 3: \"THREE\"}\nprint(a_dict)\n\n# Print both the keys & values from a dictionary\nprint(a_dict.items())\n\nfor item in a_dict.items():\n    print(item)"}]},
+"10fc6e5a1e16.png": {"action":"convert","blocks":[
+{"role":"output","lang":"text","text":"{1: 'ONE', 2: 'TWO', 3: 'THREE'}\ndict_items([(1, 'ONE'), (2, 'TWO'), (3, 'THREE')])\n(1, 'ONE')\n(2, 'TWO')\n(3, 'THREE')"}]},
+"46a6e90cad94.png": {"action":"convert","blocks":[
+{"role":"code","lang":"python","text":"# Creating Dictionary\na_dict = {1: \"ONE\", 2: \"TWO\", 3: \"THREE\"}\nprint(a_dict)\n\n# Retrieve the value from the dictionary\n# for the key passed\nprint(a_dict.get(2))"}]},
+"062cae45d508.png": {"action":"convert","blocks":[
+{"role":"code","lang":"python","text":"# Creating Dictionary\na_dict = {1: \"ONE\", 2: \"TWO\", 3: \"THREE\"}\nb_dict = {4: \"FOUR\", 5: \"FIVE\"}\nprint(a_dict)\n\n# Update the values from one dictionary\n# to the other dictionary\na_dict.update(b_dict)\n\nprint(a_dict)\nprint(b_dict)"}]},
+"340177ea0fbd.png": {"action":"convert","blocks":[
+{"role":"output","lang":"text","text":"{1: 'ONE', 2: 'TWO', 3: 'THREE'}\n{1: 'ONE', 2: 'TWO', 3: 'THREE', 4: 'FOUR', 5: 'FIVE'}\n{4: 'FOUR', 5: 'FIVE'}"}]},
+"de0e9af6a800.png": {"action":"convert","blocks":[
+{"role":"code","lang":"python","text":"# Creating Dictionary\na_dict = {1: \"ONE\", 2: \"TWO\", 3: \"THREE\"}\n\n# Create dictionary by copying data from\n# another dictionary\nb_dict = a_dict.copy()\n\nprint(a_dict)\nprint(b_dict)"}]},
+"67f96a1c6a7d.png": {"action":"convert","blocks":[
+{"role":"code","lang":"python","text":"# Creating Dictionary\na_int = [1, 2, 3]\nb_str = (\"ONE\", \"TWO\", \"THREE\")\n\n# Create dictionary by using\n# fromkeys() method\na_dict = dict.fromkeys(a_int, \"int\")\nb_dict = dict.fromkeys(b_str, \"str\")\n\nprint(a_dict)\nprint(b_dict)"}]},
+"04cb5f30bd03.png": {"action":"convert","blocks":[
+{"role":"output","lang":"text","text":"{1: 'int', 2: 'int', 3: 'int'}\n{'ONE': 'str', 'TWO': 'str', 'THREE': 'str'}"}]},
+"1295e00f16c7.png": {"action":"convert","blocks":[
+{"role":"code","lang":"python","text":"# Creating Dictionary\na_dict = {1:\"ONE\", 2:\"TWO\", 3:\"THREE\"}\n\n# Clear the data from dictionary\na_dict.clear()\n\nprint(a_dict)"}]},
+"af4f4986ecdb.png": {"action":"convert","blocks":[
+{"role":"code","lang":"python","text":"# Creating Dictionary with Key\na_dict = {1: \"ONE\", 2: \"TWO\", \"THREE\": 3, \"FOUR\": 4, 5: True}\n\n# Creating Blank Dictionary\nb_dict = {}"}]},
+"e761d541b423.png": {"action":"convert","blocks":[
+{"role":"code","lang":"python","text":"# Creating Dictionary with Duplicate Key values\na_dict = {1: \"ONE\", 2: \"TWO\", \"THREE\": 3, 1: \"ONE - UPDATED\"}\nprint(a_dict)\n\n# Create Dictionary and amend the data using key value\na_dict = {1: \"ONE\", 2: \"TWO\", \"THREE\": 3}\na_dict[1] = \"ONE - UPDATED\"\nprint(a_dict)"}]},
+"1099c28d18f3.png": {"action":"convert","blocks":[
+{"role":"output","lang":"text","text":"{1: 'ONE - UPDATED', 2: 'TWO', 'THREE': 3}\n{1: 'ONE - UPDATED', 2: 'TWO', 'THREE': 3}"}]},
+"f158d122b1e1.png": {"action":"convert","blocks":[
+{"role":"code","lang":"python","text":"# Creating Dictionary\na_dict = {1: \"ONE\", 2: \"TWO\", 3: \"THREE\"}\nprint(a_dict)\n\n# Add a value to Dictionary\na_dict[4] = \"FOUR\"\nprint(a_dict)"}]},
+"77a5d232479e.png": {"action":"convert","blocks":[
+{"role":"output","lang":"text","text":"{1: 'ONE', 2: 'TWO', 3: 'THREE'}\n{1: 'ONE', 2: 'TWO', 3: 'THREE', 4: 'FOUR'}"}]},
+"13384e3ae95d.png": {"action":"convert","blocks":[
+{"role":"code","lang":"python","text":"# Creating Dictionary\na_dict = {1: \"ONE\", 2: \"TWO\", 3: \"THREE\"}\nprint(a_dict)\n\n# Add new value by passing key & value\nprint(a_dict.setdefault(4, \"FOUR\"))\nprint(a_dict)\n\n# Retrieve the value from dictionary by\n# passing the key, second argument has no\n# importance if the key already exist\nprint(a_dict.setdefault(2, \"TWO - UPDATED\"))\nprint(a_dict)\n\n# New key without value passed will add a\n# new record with 'None'\nprint(a_dict.setdefault(5))\nprint(a_dict)"}]},
+"cb0dea2684cb.png": {"action":"convert","blocks":[
+{"role":"output","lang":"text","text":"{1: 'ONE', 2: 'TWO', 3: 'THREE'}\nFOUR\n{1: 'ONE', 2: 'TWO', 3: 'THREE', 4: 'FOUR'}\nTWO\n{1: 'ONE', 2: 'TWO', 3: 'THREE', 4: 'FOUR'}\nNone\n{1: 'ONE', 2: 'TWO', 3: 'THREE', 4: 'FOUR', 5: None}"}]},
+"31b62f2e2f9c.png": {"action":"convert","blocks":[
+{"role":"code","lang":"python","text":"# Creating Dictionary\na_dict = {1: \"ONE\", 2: \"TWO\", 3: \"THREE\"}\nprint(a_dict)\n\n# Remove the data from dictionary\n# with Key value '2'\nprint(a_dict.pop(2))\nprint(a_dict)"}]},
+"64c87a5c79e6.png": {"action":"convert","blocks":[
+{"role":"output","lang":"text","text":"{1: 'ONE', 2: 'TWO', 3: 'THREE'}\nTWO\n{1: 'ONE', 3: 'THREE'}"}]},
+"922bc324f84e.png": {"action":"convert","blocks":[
+{"role":"code","lang":"python","text":"# Creating Dictionary\na_dict = {1: \"ONE\", 2: \"TWO\", 3: \"THREE\"}\nprint(a_dict)\n\n# Remove the last value from dictionary\nprint(a_dict.popitem())\nprint(a_dict)"}]},
+"de496328b1b6.png": {"action":"convert","blocks":[
+{"role":"output","lang":"text","text":"{1: 'ONE', 2: 'TWO', 3: 'THREE'}\n(3, 'THREE')\n{1: 'ONE', 2: 'TWO'}"}]},
+"66d813227b61.png": {"action":"convert","blocks":[
+{"role":"code","lang":"python","text":"# Creating a Set in Python\na_set = {\"THIS\", \"IS\", \"A\", \"NEW\", \"SET\"}\nprint(a_set)"}]},
+"9c842cccf684.png": {"action":"convert","blocks":[
+{"role":"output","lang":"text","text":"{'A', 'NEW', 'THIS', 'SET', 'IS'}"}]},
+"feee764bac35.png": {"action":"convert","blocks":[
+{"role":"output","lang":"text","text":"{'SET', 'IS', 'A', 'THIS', 'NEW'}"}]},
+"6bc2e4087314.png": {"action":"convert","blocks":[
+{"role":"code","lang":"python","text":"# Creating a Set in Python\nold_set = {\"THIS\", \"IS\", \"A\", \"SET\"}\n\n# Creating a set by copying the data from other\nnew_set = old_set.copy()\n\nprint(old_set)\nprint(new_set)"}]},
+"479da599761c.png": {"action":"convert","blocks":[
+{"role":"output","lang":"text","text":"{'SET', 'THIS', 'IS', 'A'}\n{'SET', 'THIS', 'IS', 'A'}"}]},
+"ef1efbe5fce8.png": {"action":"convert","blocks":[
+{"role":"code","lang":"python","text":"# Creating a Set in Python\na_set = {\"THIS\", \"IS\", \"A\", \"NEW\", \"SET\"}\nfor value in a_set:\n    print(value)"}]},
+"98b23bb92d51.png": {"action":"convert","blocks":[
+{"role":"output","lang":"text","text":"THIS\nIS\nSET\nA\nNEW"}]},
+"6e0cd3abc608.png": {"action":"convert","blocks":[
+{"role":"code","lang":"python","text":"# Creating a Set in Python\na_set = {\"NEW\", \"SET\"}\n\na_set.add(\"NEW\")\na_set.add(\"NEW DATA\")\n\nprint(a_set)"}]},
+"a6a9430f5f23.png": {"action":"convert","blocks":[
+{"role":"output","lang":"text","text":"{'NEW', 'NEW DATA', 'SET'}"}]},
+"4e9d09754395.png": {"action":"convert","blocks":[
+{"role":"code","lang":"python","text":"# Creating a Set in Python\nset_one = {\"ONE\", \"TWO\", \"THREE\"}\nset_two = {\"THREE\", \"FOUR\", \"FIVE\"}\nprint(set_one)\n\n# Update set_one with data from set_two\nset_one.update(set_two)\n\nprint(set_one)\n\n# Update set_one by passing a string\nset_one.update(\"SIX\")\nprint(set_one)"}]},
+"03101048c622.png": {"action":"convert","blocks":[
+{"role":"output","lang":"text","text":"{'TWO', 'THREE', 'ONE'}\n{'TWO', 'FOUR', 'THREE', 'FIVE', 'ONE'}\n{'TWO', 'FOUR', 'THREE', 'I', 'FIVE', 'S', 'X', 'ONE'}"}]},
+"3c1ca0a3fc1b.png": {"action":"convert","blocks":[
+{"role":"code","lang":"python","text":"# Creating a Set in Python\nset_one = {\"THIS\", \"IS\", \"A\", \"SET\"}\nprint(set_one)\n\n# Removing the data from a set\nset_one.remove(\"SET\")\nprint(set_one)"}]},
+"315f55822c7a.png": {"action":"convert","blocks":[
+{"role":"output","lang":"text","text":"{'IS', 'SET', 'THIS', 'A'}\n{'IS', 'THIS', 'A'}"}]},
+"e67a20a01bb0.png": {"action":"convert","blocks":[
+{"role":"code","lang":"python","text":"# Creating a Set in Python\nset_one = {\"THIS\", \"IS\", \"A\", \"SET\"}\n\nprint(set_one)\n\n# Removing the data from a set\nset_one.discard(\"SET\")\nprint(set_one)"}]}
+}
