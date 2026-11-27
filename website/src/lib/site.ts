@@ -7,8 +7,9 @@ export const SITE = {
   author: "Pradeep Panga",
   youtube: "https://www.youtube.com/@DecodingComplexities",
   instagram: "https://www.instagram.com/decoding.complexities",
-  github: "https://github.com/Pradeep-Kumar-Panga/DecodingComplexities",
   // Shown on the About page only when set.
   email: "decoding.complexities@gmail.com" as string,
   linkedin: "" as string,
+  // Google Analytics 4 measurement ID (G-XXXXXXXXXX); no tag is added while empty.
+  analyticsId: "G-8SF7PV5743" as string,
 };

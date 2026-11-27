@@ -14,6 +14,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...HUBS.map((h) => ({ url: `${SITE.url}/${h.slug}` })),
     ...COURSES.map((c) => ({ url: `${SITE.url}/courses/${c.id}` })),
     { url: `${SITE.url}/about` },
+    { url: `${SITE.url}/privacy` },
     ...getTopics().map((t) => ({ url: `${SITE.url}/topics/${t.slug}` })),
     ...getAllPosts().map((p) => ({ url: `${SITE.url}${p.path}`, lastModified: p.updated })),
   ];

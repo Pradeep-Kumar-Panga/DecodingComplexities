@@ -84,11 +84,6 @@ export default function About() {
           </a>
         </li>
         <li>
-          <a className={link} href={SITE.github} target="_blank" rel="noopener noreferrer">
-            GitHub: code and notebooks from the posts
-          </a>
-        </li>
-        <li>
           <Link className={link} href="/feed.xml">
             RSS feed
           </Link>
