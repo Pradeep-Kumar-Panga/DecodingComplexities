@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { SITE } from "@/lib/site";
+import { CookieSettingsButton } from "@/components/CookieSettingsButton";
 
 export function SiteFooter() {
   return (
@@ -12,6 +13,8 @@ export function SiteFooter() {
           <Link href="/topics" className="hover:text-brand-700">Topics</Link>
           <Link href="/feed.xml" className="hover:text-brand-700">RSS</Link>
           <Link href="/about#contact" className="hover:text-brand-700">Contact</Link>
+          <Link href="/privacy" className="hover:text-brand-700">Privacy</Link>
+          {SITE.analyticsId && <CookieSettingsButton />}
           <a href={SITE.youtube} target="_blank" rel="noopener noreferrer" className="hover:text-brand-700">YouTube</a>
         </div>
       </div>

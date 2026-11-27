@@ -8,6 +8,8 @@ import { TopicChip } from "@/components/TopicChip";
 import { PostCard } from "@/components/PostCard";
 import { Toc } from "@/components/Toc";
 import { CopyCodeButtons } from "@/components/CopyCodeButtons";
+import { VideoFacades } from "@/components/VideoFacades";
+import { withVideoFacades } from "@/lib/video";
 import { hubOfPost } from "@/lib/hubs";
 
 export function PostView({ post }: { post: Post }) {
@@ -96,8 +98,9 @@ export function PostView({ post }: { post: Post }) {
           </details>
         )}
 
-        <div className="post-body" dangerouslySetInnerHTML={{ __html: post.html }} />
+        <div className="post-body" dangerouslySetInnerHTML={{ __html: withVideoFacades(post.html) }} />
         <CopyCodeButtons />
+        <VideoFacades />
 
         {courseCtx && (
           <div className="mt-14 grid gap-4 sm:grid-cols-2">
