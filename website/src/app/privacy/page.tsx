@@ -32,7 +32,7 @@ export default function Privacy() {
       <p className={p}>
         If you choose Accept on the banner, I load Google Analytics 4. It sets cookies named <code>_ga</code> and{" "}
         <code>_ga_</code> followed by an ID, and sends Google information about your visit: the pages you view, how long you stay,
-        your approximate location, device and browser type, and the site you came from. I use it only to understand which posts
+        your approximate location (country, region and city), device and browser type, and the site you came from. I use it only to understand which posts
         are read. Google may process this data in countries outside the UK and the EU; see{" "}
         <a className={link} href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener noreferrer">
           how Google uses information from sites that use its services
@@ -45,7 +45,7 @@ export default function Privacy() {
       </p>
       <p className={p}>
         I rely on your consent for this. Google Analytics keeps user-level data for 14 months and detailed event data for 2
-        months, then deletes it. I have not turned on Google signals or advertising features.
+        months, then deletes it. I have not turned on Google signals or user-provided data collection.
       </p>
 
       <h2 className={h2}>Videos</h2>
