@@ -43,6 +43,10 @@ export default function Privacy() {
         If you choose Decline, Google Analytics is not loaded and no analytics cookies are set. Your choice is remembered in your
         browser (local storage, under the name <code>dc-analytics-consent</code>), not on a server.
       </p>
+      <p className={p}>
+        I rely on your consent for this. Google Analytics keeps user-level data for 14 months and detailed event data for 2
+        months, then deletes it. I have not turned on Google signals or advertising features.
+      </p>
 
       <h2 className={h2}>Videos</h2>
       <p className={p}>
